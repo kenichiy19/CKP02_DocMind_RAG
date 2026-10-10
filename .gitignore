@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Segredos
+.env
+
+# Banco vetorial (recriado pelo notebook a cada execução)
+chroma_db/
+
+# IDE / SO
+.idea/
+.vscode/
+.DS_Store
+
+# Atenção: os PDFs em docs/ DEVEM ser versionados (o notebook os lê do repositório)

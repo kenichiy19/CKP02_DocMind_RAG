@@ -1,0 +1,50 @@
+configuracao,user_input,response,faithfulness,answer_relevancy,sem_resposta
+chunk_1024,"A luz de status da bateria do meu Dell XPS 13 pisca duas vezes em âmbar e uma vez em branco, repetidamente. O que isso indica?",Esse padrão de luz de status (2 vezes em âmbar e 1 vez em branco) indica uma Falha na CPU [2].,0.0,0.7963906642626641,False
+chunk_1024,A bateria do meu notebook está inchada. O que devo fazer?,"Se a bateria do seu notebook estiver inchada, siga estas orientações:
+
+1. Interrompa o uso do notebook [1].
+2. Descarregue a bateria desconectando o adaptador CA e operando o computador apenas com a alimentação da bateria até que ele não acenda mais ao pressionar o botão liga/desliga [1], [3].
+
+**Precauções de segurança:**
+* Não exponha a bateria a altas temperaturas, não a desmonte, não a incline e não aplique pressão em sua superfície [2], [3].
+* Não utilize ferramentas de qualquer tipo para forçar contra a bateria [2], [3].
+* Não esmague, derrube, mutile ou penetre na bateria com objetos estranhos [3].
+* Se a bateria ficar presa devido ao inchaço, não tente soltá-la, pois perfurar, dobrar ou esmagá-la é perigoso [2], [3].
+* Não tente remontar uma bateria inchada ou danificada no notebook [2].
+
+**Descarte e Suporte:**
+* Baterias cobertas pela garantia devem ser devolvidas à Dell em embalagem aprovada [2].
+* Baterias fora da garantia devem ser descartadas em centros de reciclagem aprovados [2].
+* Para assistência, acesse https://www.dell.com/support [2].",1.0,0.9784632332593611,False
+chunk_1024,Quais configurações de tela posso mudar no Windows para a bateria do notebook durar mais?,"Para prolongar a duração da bateria no Windows, você pode alterar as seguintes configurações de tela:
+
+1. **Temas:** Escolha um tema escuro em Personalização > Temas [1].
+2. **Recomendações de energia:** Acesse Iniciar > Configurações > Energia do sistema & bateria > Recomendações de energia e ajuste individualmente o brilho da tela e a proteção de tela [2].
+3. **Suspensão:** Acesse Iniciar > Configurações > Alimentação do sistema & bateria > Tela e suspensão e, na opção ""Com energia da bateria, coloque meu dispositivo em suspensão depois"", escolha uma duração mais curta [1].",0.8,0.853254939042075,False
+chunk_1024,"Estou conectado ao Wi-Fi, mas a internet está muito lenta. O que posso verificar?","Para solucionar a velocidade muito lenta da internet estando conectado ao Wi-Fi, verifique o seguinte [1]:
+
+1. **Intensidade do sinal:** Certifique-se de que o dispositivo esteja próximo ao roteador e livre de obstruções.
+2. **Aplicativos em segundo plano:** Abra o Gerenciador de Tarefas (Ctrl + Shift + Esc) e finalize processos que estejam consumindo alta largura de banda de rede.
+3. **Desempenho do roteador:** Conecte outro dispositivo ao Wi-Fi. Se o problema persistir, o roteador pode precisar de substituição ou manutenção.",1.0,0.8354612497527287,False
+chunk_1024,Quais comandos de rede posso executar no Prompt de Comando para tentar corrigir a conexão Wi-Fi?,"Para tentar corrigir o problema de conexão, execute os seguintes comandos no prompt de comando, na ordem listada [1]:
+
+1. Digite `netsh winsock reset` e selecione Enter.
+2. Digite `netsh int ip reset` e selecione Enter.
+3. Digite `ipconfig /release` e selecione Enter.
+4. Digite `ipconfig /renew` e selecione Enter.
+5. Digite `ipconfig /flushdns` e selecione Enter.",1.0,0.8011346442878287,False
+chunk_1024,O Windows Update mostra o erro 0x800f0922. O que ele significa e como resolver?,"O código de erro `0x800f0922` significa que não é possível instalar a atualização devido a espaço em disco insuficiente ou problemas com o .NET Framework ou outros componentes [1].
+
+Para resolver o problema de espaço em disco insuficiente, siga estas orientações [2]:
+
+1. Verifique se o dispositivo possui o espaço livre necessário:
+   - Pelo menos 16 GB para upgrade de sistema operacional de 32 bits.
+   - Pelo menos 20 GB para sistema operacional de 64 bits.
+2. Caso o dispositivo possua um disco rígido pequeno, pode ser necessário inserir uma unidade USB para realizar a atualização.",1.0,0.8561696772354344,False
+chunk_1024,Meu Windows 11 reinicia sozinho várias vezes com o mesmo erro de tela azul. Quais etapas básicas devo seguir?,"Se o Windows 11 for reiniciado com frequência devido ao mesmo erro de código de parada, tente as seguintes etapas básicas de solução de problemas [1]:
+
+1. Remova qualquer novo hardware: se você adicionou hardware ao computador antes do erro, desligue o computador, remova o hardware e tente reiniciar [1], [3].
+2. Iniciar o computador no modo de segurança: se tiver problemas ao reiniciar, utilize este modo para tentar as etapas restantes da solução de problemas [3].
+3. Verifique o Gerenciador de Dispositivos: clique com o botão direito no botão Iniciar, selecione Gerenciador de Dispositivos e verifique se há dispositivos marcados com ponto de exclamação (!). Clique com o botão direito no dispositivo e selecione Atualizar driver; se não funcionar, tente desabilitar ou desinstalar o dispositivo [3].
+4. Verifique se há espaço livre suficiente no disco rígido, pois o sistema operacional e alguns aplicativos necessitam de espaço para criar arquivos de permuta e outras funções [3].",1.0,0.8201340307274094,False
+chunk_1024,Como desativo os aplicativos que abrem junto com o Windows para o computador ficar mais rápido?,Não encontrei essa informação nos documentos da base.,0.0,0.0,True

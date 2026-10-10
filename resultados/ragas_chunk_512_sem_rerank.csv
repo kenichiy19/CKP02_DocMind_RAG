@@ -1,0 +1,31 @@
+configuracao,user_input,response,faithfulness,answer_relevancy,sem_resposta
+chunk_512_sem_rerank,"A luz de status da bateria do meu Dell XPS 13 pisca duas vezes em âmbar e uma vez em branco, repetidamente. O que isso indica?","De acordo com a Tabela 20 de Códigos de LED, o código de luz de diagnóstico 2,1 indica uma ""Falha do processador"" [1].",1.0,0.7288626277209104,False
+chunk_512_sem_rerank,A bateria do meu notebook está inchada. O que devo fazer?,"Se a bateria do seu notebook estiver inchada, siga estas orientações:
+
+1. Interrompa o uso do notebook [2].
+2. Descarregue o dispositivo desconectando o adaptador CA e deixando a bateria descarregar para evitar danos adicionais ao gabinete ou componentes internos [2].
+3. Não utilize a bateria; ela deve ser substituída e descartada adequadamente [3].
+4. Entre em contato com o suporte ao produto Dell para verificar as opções de substituição, conforme a garantia ou contrato de serviço, inclusive a possibilidade de substituição por um técnico autorizado [3].
+
+**Precauções de segurança:**
+* Não aplique pressão, não incline e não use ferramentas para forçar a bateria [1].
+* Se a bateria estiver presa devido ao inchaço, não tente soltá-la, pois perfurar, dobrar ou esmagá-la é perigoso [1].
+* Não tente remontar uma bateria inchada ou danificada no notebook [1].
+* Caso a bateria esteja coberta pela garantia, ela deve ser devolvida à Dell em embalagem de envio aprovada fornecida pela empresa [1].",1.0,0.9342774566835246,False
+chunk_512_sem_rerank,Quais configurações de tela posso mudar no Windows para a bateria do notebook durar mais?,Não encontrei essa informação nos documentos da base.,1.0,0.0,True
+chunk_512_sem_rerank,"Estou conectado ao Wi-Fi, mas a internet está muito lenta. O que posso verificar?",Não encontrei essa informação nos documentos da base.,0.0,0.0,True
+chunk_512_sem_rerank,Quais comandos de rede posso executar no Prompt de Comando para tentar corrigir a conexão Wi-Fi?,"Para tentar corrigir o problema de conexão, você pode executar comandos de rede para redefinir manualmente a pilha TCP/IP, liberar e renovar o endereço IP e liberar e redefinir o cache do resolvedor de cliente DNS [3].
+
+O procedimento é o seguinte:
+
+1. Selecione Pesquisar na barra de tarefas e digite prompt de comando. O botão Prompt de Comando será exibido. À direita, selecione Executar como administrador>Sim [3].
+2. No prompt de comando, execute os comandos na ordem listada [3].
+
+Observação: O contexto menciona a execução de comandos, mas não lista os códigos específicos dos comandos a serem digitados [3].",1.0,0.7627654393288279,False
+chunk_512_sem_rerank,O Windows Update mostra o erro 0x800f0922. O que ele significa e como resolver?,"O código de erro 0x800f0922 significa que não é possível instalar a atualização devido a espaço em disco insuficiente ou problemas com o .NET Framework ou outros componentes [1].
+
+Quanto à resolução, não encontrei essa informação nos documentos da base.",1.0,0.0,True
+chunk_512_sem_rerank,Meu Windows 11 reinicia sozinho várias vezes com o mesmo erro de tela azul. Quais etapas básicas devo seguir?,"Se o Windows 11 for reiniciado com frequência devido ao mesmo erro de código de parada, tente a seguinte etapa básica de solução de problemas:
+
+1. Remova qualquer novo hardware [1].",1.0,0.8213350668352696,False
+chunk_512_sem_rerank,Como desativo os aplicativos que abrem junto com o Windows para o computador ficar mais rápido?,"Não encontrei essa informação nos documentos da base. O contexto menciona que o aplicativo Gerenciador do PC Microsoft fornece ferramentas para gerenciar aplicativos de inicialização [1], [3], mas não descreve o procedimento de como desativá-los.",1.0,0.0,True

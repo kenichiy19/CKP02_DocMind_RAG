@@ -1,0 +1,46 @@
+configuracao,user_input,response,faithfulness,answer_relevancy,sem_resposta
+chunk_512,"A luz de status da bateria do meu Dell XPS 13 pisca duas vezes em âmbar e uma vez em branco, repetidamente. O que isso indica?","De acordo com a Tabela 20 de Códigos de LED, o padrão de luz de diagnóstico 2,1 indica uma ""Falha do processador"" [3].",1.0,0.749559661027559,False
+chunk_512,A bateria do meu notebook está inchada. O que devo fazer?,"Se a bateria do seu notebook estiver inchada, siga estas orientações:
+
+1. Interrompa o uso do notebook [1].
+2. Desconecte o adaptador CA e deixe a bateria descarregar para evitar danos adicionais ao gabinete ou componentes internos [1].
+
+**Precauções de segurança:**
+* Não aplique pressão na superfície da bateria [2].
+* Não incline a bateria [2].
+* Não utilize ferramentas de qualquer tipo para forçar contra a bateria [2].
+* Se a bateria estiver presa devido ao inchaço, não tente soltá-la, pois perfurar, dobrar ou esmagar a bateria pode ser perigoso [2].
+* Não tente remontar uma bateria inchada ou danificada no notebook [2].
+
+Caso a bateria esteja coberta pela garantia, ela deve ser devolvida à Dell utilizando a embalagem de envio aprovada fornecida pela empresa [2].",1.0,0.9784632332593611,False
+chunk_512,Quais configurações de tela posso mudar no Windows para a bateria do notebook durar mais?,"Para prolongar a vida útil da bateria no Windows, você pode realizar as seguintes alterações de tela e energia:
+
+1. Utilizar um tema escuro [1].
+2. Definir uma duração mais curta para a suspensão do computador seguindo o caminho: Selecione Iniciar > Configurações > Alimentação do sistema > bateria > Tela e suspensão. Na opção ""Com energia da bateria, coloque meu dispositivo em suspensão depois"", escolha uma duração mais curta [2].",0.8,0.755820550008795,False
+chunk_512,"Estou conectado ao Wi-Fi, mas a internet está muito lenta. O que posso verificar?","Para solucionar o problema de conexão à Internet com velocidade muito lenta, você deve verificar a intensidade do sinal, certificando-se de que o dispositivo está conectado ao Wi-Fi [1].",1.0,0.7770089461635731,False
+chunk_512,Quais comandos de rede posso executar no Prompt de Comando para tentar corrigir a conexão Wi-Fi?,"Para tentar corrigir a conexão Wi-Fi, você pode executar os seguintes procedimentos no Prompt de Comando:
+
+1. Para redefinir a pilha TCP/IP, liberar e renovar o endereço IP e redefinir o cache do resolvedor de cliente DNS:
+   1. Selecione Pesquisar na barra de tarefas, digite ""prompt de comando"" e selecione ""Executar como administrador > Sim"" [1].
+   2. Execute os comandos de rede na ordem listada (embora os comandos específicos não estejam detalhados no texto fornecido) [1].
+
+2. Para verificar o servidor DNS e executar ping:
+   1. Abra o prompt de comando como administrador [2].
+   2. Digite `ipconfig /all | findstr /c:""DNS Servers""` e pressione Enter para anotar o endereço IP do servidor DNS [2].
+   3. Digite `ping [endereço do servidor DNS]` [2].",1.0,0.920253166529846,False
+chunk_512,O Windows Update mostra o erro 0x800f0922. O que ele significa e como resolver?,"O erro `0x800f0922` significa que não é possível instalar a atualização devido a problemas com o .NET Framework, outros componentes ou espaço em disco insuficiente [1], [2].
+
+Para resolver, siga estas orientações:
+
+1. **Liberar espaço em disco**: O dispositivo requer ao menos 16 GB de espaço livre para realizar o upgrade para um sistema operacional de 32 bits [2].
+2. **Executar a solução de problemas do Windows Update**:
+    1. Selecione Iniciar > Configurações > Solução de problemas > do sistema > Outros solucionadores de problemas [2].
+    2. Localize o Windows Update e selecione Executar [2].
+    3. Siga as instruções na tela para concluir o processo [2].",1.0,0.8901928565522476,False
+chunk_512,Meu Windows 11 reinicia sozinho várias vezes com o mesmo erro de tela azul. Quais etapas básicas devo seguir?,"Se o Windows 11 for reiniciado com frequência devido ao mesmo erro de código de parada, tente as seguintes etapas básicas de solução de problemas [1]:
+
+1. Remova qualquer novo hardware: se você adicionou um novo hardware ao computador antes do erro, desligue o computador, remova o hardware e tente reiniciar [2].
+2. Iniciar o computador no modo de segurança: se tiver problemas ao reiniciar, inicie o computador no modo de segurança [2]. No modo de segurança, você pode tentar as etapas restantes da solução de problemas [2].",1.0,0.8205343760966962,False
+chunk_512,Como desativo os aplicativos que abrem junto com o Windows para o computador ficar mais rápido?,"Não encontrei nos documentos da base a informação de como desativar especificamente os aplicativos que abrem junto com o Windows (aplicativos de inicialização).
+
+O contexto menciona que muitos aplicativos de inicialização em execução em segundo plano podem deixar o dispositivo lento [2], mas não fornece o procedimento para desativá-los.",1.0,0.0,True

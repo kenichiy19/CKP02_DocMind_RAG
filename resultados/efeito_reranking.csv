@@ -1,0 +1,4 @@
+,com_rerank,sem_rerank,diferenca
+faithfulness,0.975,0.875,0.1
+answer_relevancy,0.736,0.406,0.33
+respondidas,7.0,4.0,3.0

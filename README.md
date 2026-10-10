@@ -119,7 +119,25 @@ Para manter o modelo exigido (`nomic-embed-text`) e a mesma classe (`OllamaEmbed
 
 ## Resultados
 
-<!-- RESULTADOS: preenchido após a execução final -->
+Avaliação com 8 perguntas que cobrem os 6 documentos e as 3 categorias. Todas as configurações usam busca de 10 candidatos e reranking para 3 trechos. As tabelas completas, por pergunta e com as respostas geradas, estão em `resultados/`.
+
+| chunk_size | overlap | chunks | faithfulness | answer_relevancy | pontuação | respondidas |
+| --- | --- | --- | --- | --- | --- | --- |
+| 256 | 32 | 674 | 0,688 | 0,530 | 0,609 | 5 de 8 |
+| **512** | **64** | **322** | **0,975** | **0,736** | **0,855** | **7 de 8** |
+| 1024 | 128 | 161 | 0,725 | 0,743 | 0,734 | 7 de 8 |
+
+**Configuração escolhida: `chunk_size=512`.** É a única com faithfulness na zona ideal (≥ 0,9), e seu answer_relevancy é equivalente ao da configuração de 1024. Chunks de 256 caracteres fragmentam os procedimentos e deixaram 3 perguntas sem resposta. Chunks de 1024 dão respostas mais completas em listas longas, mas misturam conteúdos vizinhos, como as duas tabelas de códigos de LED do manual da Dell.
+
+**Efeito do reranking (chunk_size=512):**
+
+| | com reranking | sem reranking |
+| --- | --- | --- |
+| faithfulness | 0,975 | 0,875 |
+| answer_relevancy | 0,736 | 0,406 |
+| respondidas | 7 de 8 | 4 de 8 |
+
+**Limitações:** a pergunta sobre "aplicativos que abrem junto com o Windows" falhou em todas as configurações, porque o documento usa o termo "aplicativos de inicialização"; listas longas podem ser divididas entre dois chunks; e o juiz é o mesmo modelo que gera as respostas, com variação de até 0,06 nas médias entre execuções. A análise completa está no notebook, seção 10.
 
 ## Reuso no CKP03
 
